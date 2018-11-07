@@ -1,0 +1,275 @@
+.top_nav a {
+    color: #fff;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.top_nav a i {
+    padding-right: 6px;
+}
+
+.top_nav a:hover {
+    background: #FFF;
+    color: #709b1d;
+
+    border-bottom: solid -2px #709b1d;
+    border-radius: 2px;
+}
+
+form select:hover {
+    border-bottom: solid 2px #709b1d;
+}
+
+.lo_go .badge_card {
+    bottom: 10px;
+    right: 15px;
+    font-family: sans-serif;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    background: #709b1d;
+    color: #fff;
+    box-shadow: 0px 0px 6px #6c7b6c;
+}
+
+.lo_go {
+    min-height: 90px;
+    background: #fff;
+}
+
+.lo_go .login a {
+    color: #709b1d;
+}
+
+.lo_go .icon_top i {
+    color: #709b1d;
+    font-size: 22px;
+}
+
+.lo_go .icon_top span {
+    font-size: 10px;
+}
+
+nav div a {
+    color: #709b1d !important;
+}
+
+nav div a:hover {
+    color: #FFF !important;
+    background: #709b1d !important;
+    border-radius: 5px;
+}
+
+.search input {
+    width: 200px !important;
+}
+
+.nav_bar nav {
+    height: 40px;
+}
+
+.banner_content img{
+    width: 100%;
+}
+/*breadcrumb_top*/
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #FFF;
+    content: "/";
+}
+
+.breadcrumb_top ol {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+/*prosuc*/
+.product {
+    min-height: 290px;
+}
+
+.product_top {
+    min-height: 230px;
+    height: 100%;
+}
+
+.product_top img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.product_box {
+    height: 60px;
+    width: 100%;
+    background: #efefef;
+
+}
+
+.product_box a {
+    height: 38%;
+}
+
+.product_box p {
+    margin-top: -4%;
+    margin-bottom: 0%;
+}
+
+.btn_transform {
+    transform: translate(0%, -60%);
+    width: 80%;
+}
+
+.fa_star:before {
+    font-family: "Font Awesome 5 Free";
+    color: #FFF;
+    font-style: normal;
+    font-weight: 900;
+    content: "\f005";
+    font-size: 14px;
+    background: #709b1d;
+    margin: -1px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.rating {
+    margin-top: 1px;
+
+}
+
+/*sibar right*/
+.category h3 {
+    background: #7fa522;
+    color: #FFF;
+    padding-left: 5px;
+    font-weight: normal;
+}
+.category ul{
+    list-style-type: none;
+}
+.category a:before {
+  font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0da";
+    font-size: 14px;
+    margin-right: 10px;
+}
+.category a{
+    color: #000;
+    text-decoration: none;
+}
+.category a:hover{
+    color: #7fa522;
+}
+/* by brandL
+*/
+.by_brand h3{
+     background: #7fa522;
+    color: #FFF;
+    padding-left: 5px;
+    font-weight: normal;
+}
+.by_brand label:hover{
+    color:#7fa522;
+}
+.check-with-label:checked + .label-for-check {
+  color: #7fa522;
+}
+
+.banner1{
+    background: #d7d7d7;
+    min-height: 320px;
+}
+.banner2{
+    background: #d7d7d7;
+    min-height: 125px;
+}
+
+/*text_box*/
+.text_box{
+    background: #709b1d;
+}
+.first_shipping{
+      background: #83b228;
+}
+.first_shipping i{
+    font-size: 40px;
+    color: #Fff;
+}
+.first_shipping p{
+    font-size: 12px;
+    color: #FFF;
+}
+
+/*our_brand*/
+.our_brand button{
+    font-size: 24px;
+    background: #709b1d;    
+    color: #FFF;
+}
+
+.infomation h3 {
+    color: #7fa522;
+    padding-left: 5px;
+    font-weight: normal;
+}
+ ul{
+    list-style-type: none;
+}
+.infomation a:before {
+  font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0da";
+    font-size: 14px;
+    margin-right: 10px;
+}
+.infomation a{
+    color: #000;
+    text-decoration: none;
+}
+.infomation a:hover{
+    color: #7fa522;
+}
+
+/*copy_right
+*/
+.copy_right{
+    background: #f1f1f1;
+}
+hr { 
+  display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    border-width: 1px
+}
+.contact h3{
+     color: #7fa522;
+    padding-left: 5px;
+    font-weight: normal;
+}
+.contact a{
+    color: #000;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: #7fa522;
+}
+
+/*we_accept*/
+.we_accept{
+    background: #e0e0e0;
+}
+.we_accept button{
+    background: #709b1d;    
+    color: #fff;
+    font-size: 13px;
+
+}
+
+.copy_right{
+    background: #709b1d;
+    color: #FFF;
+}
